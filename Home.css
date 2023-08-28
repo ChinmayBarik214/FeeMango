@@ -141,6 +141,8 @@
     font-weight: 900;
     text-transform: uppercase;
     cursor: pointer;
+    border: 0;
+    background-color: #f1c40f;
   }
   .container {
     max-width: 1000px;

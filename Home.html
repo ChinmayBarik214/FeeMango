@@ -30,7 +30,7 @@
     </header>
     <section id="hero">
       <h2>Manage your school fees now!</h2>
-      <input id="submit" class="btn" type="submit" value="GET STARTED">
+      <a href="https://raw.githubusercontent.com/ChinmayBarik214/FeeMango/main/Fee%20management.py" download="FeeMango"><input id="submit" class="btn" type="submit" value="DOWNLOAD NOW"></a>
     </section>
     <div class="container">
       <section id="features">
@@ -58,7 +58,14 @@
           </div>
           <div class="desc">
             <h2>Easy Setup</h2>
-            <p>Just run the following commands on your mySQL command line client and then launch Fee Management.py</p>
+            <p>Just run the following commands on your mySQL command line client and then launch Fee Management.py:
+              <ul>
+                <li>• drop databsase school;</li>
+                <li>• create database school;</li>
+                <li>• create table student(roll int(5) primary key, name varchar(20) not null, age int(2) not null, class int(3), city varchar(10));</li>
+                <li>• create table fee(roll int(5) references student(roll), fee deposit int(6) not null, month varchar(10));</li>
+              </ul>
+            </p>
           </div>
         </div>
       </section>
@@ -75,7 +82,7 @@
             <li>Community Access</li>
             <li>Acknowledgment</li>
           </ol>
-          <button class="btn">donate</button>
+          <a href="https://www.paypal.com/paypalme/chinmaybarik214" style="margin: 10px;"><button class="btn">donate</button></a>
         </div>
          <div class="product" id="acoustic">
           <div class="level">Silver Sponser</div>
@@ -86,7 +93,7 @@
             <li>Special Recognition</li>
             <li>Quarterly Q&A</li>
           </ol>
-          <button class="btn">donate</button>
+          <a href="https://www.paypal.com/paypalme/chinmaybarik214" style="margin: 10px;"><button class="btn">donate</button></a>
         </div>
          <div class="product" id="electric">
           <div class="level">Gold Guardian</div>
@@ -97,7 +104,7 @@
             <li>Priority Support</li>
             <li>VIP Events</li>
           </ol>
-          <button class="btn">donate</button>
+          <a href="https://www.paypal.com/paypalme/chinmaybarik214" style="margin: 10px;"><button class="btn">donate</button></a>
         </div>
       </section>
       <footer>
