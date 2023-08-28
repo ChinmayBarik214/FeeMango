@@ -2,7 +2,7 @@
 #create database school;
 #use school;
 #create table student(roll int(5) primary key, name varchar(20) not null, age int(2) not null, class int(3), city varchar(10));
-#create table fee(roll int(5) references student(roll), fee deposit int(6) not null, month varchar(10));
+#create table fee(roll int(5) references student(roll), FeeDeposit int(6) not null, month varchar(10));
 
 import mysql.connector
 db=mysql.connector.connect(host="localhost", user="root", passwd="root", database="school")
